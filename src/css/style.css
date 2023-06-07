@@ -14,7 +14,7 @@ main{
     height: 100vh;
     background-image: url("../img/bg.png");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,8 @@ main::before{
 }
 .container{
     width: 50%;
-    max-width: 570px;
+    min-height: 520px;
+    max-width: 1200px;
     color: white;
     z-index: 1;
     padding-left: 70px;
@@ -130,13 +131,14 @@ button span{
 }
 .container-video{
     width: 50%;
-    height: 413px;
+    min-height: 520px;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     z-index: 1;
-   
+    padding-right: 70px;
     /* background-image: url(/src/img/smoke.gif); */
      
 }
@@ -144,8 +146,9 @@ button span{
 .container-video_item{
     position: relative;
     background-color: rgb(8,8,8);
-    width: 520px;
-    height: 300px;
+    width: 100%;
+
+
     display: flex;
     justify-content: center;
     align-items: center;
