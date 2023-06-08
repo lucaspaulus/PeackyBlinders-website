@@ -27,7 +27,7 @@ main::before{
     position: absolute;
 }
 .container{
-    width: 50%;
+    flex: 1;
     min-height: 520px;
     max-width: 1200px;
     color: white;
@@ -130,7 +130,7 @@ button span{
     font-weight: 400;
 }
 .container-video{
-    width: 50%;
+    flex: 1;
     min-height: 520px;
     max-width: 1200px;
     display: flex;
@@ -138,17 +138,13 @@ button span{
     justify-content: center;
     align-items: center;
     z-index: 1;
-    padding-right: 70px;
-    /* background-image: url(/src/img/smoke.gif); */
-     
+    padding-right: 70px; 
 }
 
 .container-video_item{
     position: relative;
     background-color: rgb(8,8,8);
     width: 100%;
-
-
     display: flex;
     justify-content: center;
     align-items: center;
